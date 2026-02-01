@@ -1,0 +1,106 @@
+2026-02-01 17:24:33,537 - agent - INFO - vector_store.py:84 - [加载知识库]文件C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\扫地机器人100问.pdf加载成功
+2026-02-01 17:24:33,550 - agent - ERROR - vector_store.py:86 - [加载知识库]文件C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\扫地机器人100问2.txt加载失败,错误信息:Error loading C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\扫地机器人100问2.txt
+Traceback (most recent call last):
+  File "C:\Users\shf\anaconda3\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xab in position 4: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\rag\vector_store.py", line 70, in load_document
+    documents = get_file_documents(path)
+  File "C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\rag\vector_store.py", line 54, in get_file_documents
+    return txt_loader(read_path)
+  File "C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\utils\file_handler.py", line 52, in txt_loader
+    return TextLoader(file_path).load()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\shf\anaconda3\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+  File "C:\Users\shf\anaconda3\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\扫地机器人100问2.txt
+2026-02-01 17:24:33,554 - agent - ERROR - vector_store.py:86 - [加载知识库]文件C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\扫拖一体机器人100问.txt加载失败,错误信息:Error loading C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\扫拖一体机器人100问.txt
+Traceback (most recent call last):
+  File "C:\Users\shf\anaconda3\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xab in position 4: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\rag\vector_store.py", line 70, in load_document
+    documents = get_file_documents(path)
+  File "C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\rag\vector_store.py", line 54, in get_file_documents
+    return txt_loader(read_path)
+  File "C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\utils\file_handler.py", line 52, in txt_loader
+    return TextLoader(file_path).load()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\shf\anaconda3\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+  File "C:\Users\shf\anaconda3\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\扫拖一体机器人100问.txt
+2026-02-01 17:24:33,555 - agent - ERROR - vector_store.py:86 - [加载知识库]文件C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\故障排除.txt加载失败,错误信息:Error loading C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\故障排除.txt
+Traceback (most recent call last):
+  File "C:\Users\shf\anaconda3\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xab in position 2: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\rag\vector_store.py", line 70, in load_document
+    documents = get_file_documents(path)
+  File "C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\rag\vector_store.py", line 54, in get_file_documents
+    return txt_loader(read_path)
+  File "C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\utils\file_handler.py", line 52, in txt_loader
+    return TextLoader(file_path).load()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\shf\anaconda3\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+  File "C:\Users\shf\anaconda3\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\故障排除.txt
+2026-02-01 17:24:33,557 - agent - ERROR - vector_store.py:86 - [加载知识库]文件C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\维护保养.txt加载失败,错误信息:Error loading C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\维护保养.txt
+Traceback (most recent call last):
+  File "C:\Users\shf\anaconda3\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xab in position 4: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\rag\vector_store.py", line 70, in load_document
+    documents = get_file_documents(path)
+  File "C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\rag\vector_store.py", line 54, in get_file_documents
+    return txt_loader(read_path)
+  File "C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\utils\file_handler.py", line 52, in txt_loader
+    return TextLoader(file_path).load()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\shf\anaconda3\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+  File "C:\Users\shf\anaconda3\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\维护保养.txt
+2026-02-01 17:24:33,558 - agent - ERROR - vector_store.py:86 - [加载知识库]文件C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\选购指南.txt加载失败,错误信息:Error loading C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\选购指南.txt
+Traceback (most recent call last):
+  File "C:\Users\shf\anaconda3\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xab in position 2: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\rag\vector_store.py", line 70, in load_document
+    documents = get_file_documents(path)
+  File "C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\rag\vector_store.py", line 54, in get_file_documents
+    return txt_loader(read_path)
+  File "C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\utils\file_handler.py", line 52, in txt_loader
+    return TextLoader(file_path).load()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\shf\anaconda3\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+  File "C:\Users\shf\anaconda3\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\选购指南.txt

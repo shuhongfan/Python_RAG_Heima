@@ -1,0 +1,6 @@
+2026-02-01 17:25:15,307 - agent - INFO - vector_store.py:66 - [加载知识库]文件C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\扫地机器人100问.pdf已存在,跳过
+2026-02-01 17:25:16,483 - agent - INFO - vector_store.py:84 - [加载知识库]文件C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\扫地机器人100问2.txt加载成功
+2026-02-01 17:25:17,758 - agent - INFO - vector_store.py:84 - [加载知识库]文件C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\扫拖一体机器人100问.txt加载成功
+2026-02-01 17:25:20,133 - agent - INFO - vector_store.py:84 - [加载知识库]文件C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\故障排除.txt加载成功
+2026-02-01 17:25:21,510 - agent - INFO - vector_store.py:84 - [加载知识库]文件C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\维护保养.txt加载成功
+2026-02-01 17:25:22,780 - agent - INFO - vector_store.py:84 - [加载知识库]文件C:\Users\shf\Desktop\Python_RAG_Heima\Agent智能体\data\选购指南.txt加载成功

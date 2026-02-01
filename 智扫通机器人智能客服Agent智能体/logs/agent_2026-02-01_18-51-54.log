@@ -1,0 +1,8 @@
+2026-02-01 18:51:59,002 - agent - INFO - middleware.py:39 - [log_before_model]即将调用模型，带有1条消息。
+2026-02-01 18:51:59,003 - agent - DEBUG - middleware.py:41 - [log_before_model]HumanMessage | 你是谁
+2026-02-01 18:52:34,868 - agent - INFO - middleware.py:39 - [log_before_model]即将调用模型，带有1条消息。
+2026-02-01 18:52:34,869 - agent - DEBUG - middleware.py:41 - [log_before_model]HumanMessage | 我要买一个扫地机器人有什么推荐
+2026-02-01 18:52:50,824 - agent - INFO - middleware.py:39 - [log_before_model]即将调用模型，带有1条消息。
+2026-02-01 18:52:50,825 - agent - DEBUG - middleware.py:41 - [log_before_model]HumanMessage | 户外机器人
+2026-02-01 18:53:23,767 - agent - INFO - middleware.py:39 - [log_before_model]即将调用模型，带有1条消息。
+2026-02-01 18:53:23,767 - agent - DEBUG - middleware.py:41 - [log_before_model]HumanMessage | 手动式机器人
